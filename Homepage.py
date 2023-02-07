@@ -41,11 +41,9 @@ img_2 = Image.open("images/img_2.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
-   st.title("Hi, I am PLACEHOLDER :sunglasses:")
-   st.subheader("I'm a student majoring in PLACEHOLDER at PLACEHOLDER")
-   st.write(
-       "My personal hobbies include PLACEHOLDER, PLACEHOLDER, and of course, more PLACEHOLDER!"
-   )
+   st.title("Hi, I am Christian Ihekweazu")
+   st.subheader("I'm a student majoring in Computer Science at Clemson University")
+
 
 
 # ---- WHAT IS THIS ABOUT ----
@@ -57,7 +55,7 @@ with st.container():
        st.write("##")
        st.write(
            """
-           This website serves an easy way to keep up with my personal projects, experiences, etc. in a way a traditional one page resume cannot.
+           This website serves as instructions for my resume website template that I have uploaded to my GitHub account.
            """
        )
    with right_column:
