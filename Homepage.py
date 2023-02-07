@@ -63,38 +63,7 @@ with st.container():
    st.write("---")
 
 
-# ---- Self Description ----
-with st.container():
-   st.markdown('<h1 style="text-align: center;">Education</h1>', unsafe_allow_html=True)
-   st.write("---")
-   st.write("##")
-  
-   st.markdown('<h3 style="text-align: center;">Basic Info</h3>', unsafe_allow_html=True)
-   #st.markdown('<h2 style="text-align: center;">____________</h2>', unsafe_allow_html=True)
 
-
-   st.markdown('<div style="text-align: justify;"> <font size = "4"> - Student at PLACEHOLDER University </font> </div>', unsafe_allow_html=True)
-   st.markdown('<div style="text-align: justify;"> <font size = "4"> - Major: PLACEHOLDER </font> </div>', unsafe_allow_html=True)
-   st.markdown('<div style="text-align: justify;"> <font size = "4"> - GPA: 4.0 </font> </div>', unsafe_allow_html=True)
-   st.write("---")  
-
-
-with st.container():
-
-
-   st.markdown('<h3 style="text-align: center;"> Organizations and Extracurriculars </h3>', unsafe_allow_html=True)
-  
-
-
-   st.markdown('<div style="text-align: justify;"> <font size = "4"> Currently involved with: </font> </div>', unsafe_allow_html=True)
-   st.markdown('<div style="text-align: justify;"> <font size = "4"> - PLACEHOLDER ORGANIZATION, 2020 - Present </font> </div>', unsafe_allow_html=True)
-   st.markdown('<div style="text-align: justify;"> <font size = "4"> - PLACEHOLDER 2, 2021 - Present </font> </div>', unsafe_allow_html=True)
-   st.markdown('<div style="text-align: justify;"> <font size = "4"> Previously involved with: </font> </div>', unsafe_allow_html=True)
-   st.markdown('<div style="text-align: justify;"> <font size = "4"> - PLACEHOLDER ORGANIZATION, 2019 - 2022 </font> </div>', unsafe_allow_html=True)
-   st.write("---")
-
-
-'''
 with st.container():
    st.write("---")
    st.header("Instructions")
@@ -102,27 +71,18 @@ with st.container():
    text_column, image_column = st.columns((1, 2)) 
    with text_column:
        st.subheader("Step 1")
-       st.write(
-           """
-            ...
-           """
-       )
+       st.markdown('<div style="text-align: justify;"> <font size = "4"> Placeholder step </font> </div>', unsafe_allow_html=True)
    with image_column:
        st.image(img_1)
 with st.container():
    image_column, text_column  = st.columns((2, 1)) #st.columns((2, 1))
    with text_column:
        st.subheader("Step 2")
-       st.write(
-           """
-           ...
-           """
-       )
+       st.markdown('<div style="text-align: justify;"> <font size = "4"> Placeholder step </font> </div>', unsafe_allow_html=True)
    with image_column:
        st.image(img_2)
     
 
-'''
 
 
 with st.container():
