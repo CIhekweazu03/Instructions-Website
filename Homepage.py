@@ -6,7 +6,7 @@ from PIL import Image
 
 
 
-st.set_page_config(page_title="PLACEHOLDER's Resume", layout="wide")
+st.set_page_config(page_title="Resume Website Instructions", layout="wide")
 
 
 def load_lottieurl(url):
@@ -95,41 +95,32 @@ with st.container():
 
 
 '''
-# ---- Self Description ----
 with st.container():
    st.write("---")
-   st.header("A Little Bit About Me")
+   st.header("Instructions")
    st.write("##")
-   text_column, image_column = st.columns((1, 2)) #st.columns((1, 2))
+   text_column, image_column = st.columns((1, 2)) 
    with text_column:
-       st.subheader("A Personal Favorite")
+       st.subheader("Step 1")
        st.write(
            """
-           I am a huge Black Panther fan! I love him throughout just about all of his adaptations from the "King of the Dead" Black Panther we see in
-           Jonathan Hickman's Avengers and New Avengers comics to the more mellowed king we saw in the MCU, and even his adaptation in the cartoon Avengers: Earth's Mightiest Heroes!
-           I love how he has to balance balancing being a superhero for all people while still needing to prioritize Wakanda.
+            ...
            """
        )
    with image_column:
-       st.image(img_blackpanther)
-       st.markdown("[Where This Awesome Black Panther Image Comes From](https://www.marvel.com/comics/issue/40474/fantastic_four_1998_608)")
+       st.image(img_1)
 with st.container():
    image_column, text_column  = st.columns((2, 1)) #st.columns((2, 1))
    with text_column:
-       st.subheader("Another Favorite")
+       st.subheader("Step 2")
        st.write(
            """
-           I also love Thor comics and some of his main movies.
-           I think Thor's story arc is quite amazing. From being an arrogant, prideful warrior who is by all means unfit to be a leader of any kind
-           to being an Avenger who's willing to sacrifice his own life to save the people he cares about the most.
-           I also find it quite fascinating that this character who is quite stoic in nature also struggles with self worth when it comes to Mjolnir.
-           The idea that despite all of Thor's accomplishments and feats of strengths still struggling to see himself as worthy or proving to Odin that he is worthy is pretty unique.
+           ...
            """
        )
    with image_column:
-       st.image(img_thor)
-       st.markdown("[Where This Legendary Thor Image Comes From](https://www.marvel.com/comics/issue/89743/thor_2020_23)")
-
+       st.image(img_2)
+    
 
 '''
 
@@ -140,8 +131,8 @@ with st.container():
    st.write("##")
 
 
-   st.markdown('<div style="text-align: justify;"> <font size = "4"> - Email: PLACEHOLDER@PLACEHOLDER.com </font> </div>', unsafe_allow_html=True)
-   st.markdown('<div style="text-align: justify;"> <font size = "4"> - Linkedin: PLACEHOLDER link </font> </div>', unsafe_allow_html=True)
-   st.markdown('<div style="text-align: justify;"> <font size = "4"> - Github: PLACEHOLDER link </font> </div>', unsafe_allow_html=True)
+   st.markdown('<div style="text-align: justify;"> <font size = "4"> - [My Email](christianihekweazu@gmail.com) </font> </div>', unsafe_allow_html=True)
+   st.markdown('<div style="text-align: justify;"> <font size = "4"> - [My Linkedin](www.linkedin.com/in/christianihekweazu) </font> </div>', unsafe_allow_html=True)
+   st.markdown('<div style="text-align: justify;"> <font size = "4"> - [My GitHub](https://github.com/CIhekweazu03) </font> </div>', unsafe_allow_html=True)
    st.write("---")  
 
