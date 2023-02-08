@@ -39,6 +39,15 @@ img_5 = Image.open("images/img_5.jpg")
 img_6 = Image.open("images/img_6.jpg")
 img_7 = Image.open("images/img_7.jpg")
 img_8 = Image.open("images/img_8.jpg")
+img_9 = Image.open("images/img_9.jpg")
+img_10 = Image.open("images/img_10.jpg")
+img_11 = Image.open("images/img_11.jpg")
+img_12 = Image.open("images/img_12.jpg")
+img_13 = Image.open("images/img_13.jpg")
+img_14 = Image.open("images/img_14.jpg")
+img_15 = Image.open("images/img_15.jpg")
+img_16 = Image.open("images/img_16.jpg")
+img_17 = Image.open("images/img_17.jpg")
 
 
 
@@ -47,7 +56,7 @@ img_8 = Image.open("images/img_8.jpg")
 
 with st.container():
     st.title("Hi, I am Christian Ihekweazu")
-    st.subheader("Instructions for Resume Website Template=")
+    st.subheader("Instructions for Resume Website Template")
 
 
 
@@ -89,7 +98,7 @@ with st.container():
 
 
 with st.container():
-    image_column, text_column  = st.columns((1, 1)) #st.columns((2, 1))
+    image_column, text_column  = st.columns((1, 1))         
     with text_column:
         st.subheader("Step 2")
         st.write(
@@ -162,9 +171,6 @@ with st.container():
     st.write("---")
 
 with st.container():
-    st.write("---")
-    st.header("Instructions")
-    st.write("##")
     text_column, image_column = st.columns((1, 1)) 
     with text_column:
         st.subheader("Step 7")
@@ -184,7 +190,7 @@ with st.container():
 
 
 with st.container():
-    image_column, text_column  = st.columns((1, 1)) #st.columns((2, 1))
+    image_column, text_column  = st.columns((1, 1))         
     with text_column:
         st.subheader("Step 8")
         st.write(
@@ -195,8 +201,148 @@ with st.container():
     with image_column:
          st.image(img_8)
     st.write("---")
-     
 
+with st.container():
+    text_column, image_column = st.columns((1, 1)) 
+    with text_column:
+        st.subheader("Step 9")
+        st.write(
+            """
+            Make a GitHub Account and sign into that account.
+            \n- [GitHub Sign Up](https://github.com/join)
+            """
+        )
+    with image_column:
+        st.image(img_9)
+    st.write("---")
+
+
+
+with st.container():
+    image_column, text_column  = st.columns((1, 1))         
+    with text_column:
+        st.subheader("Step 10")
+        st.write(
+            """
+            Make a GitHub Repository
+            \n- After you make the repository, you wll see a screen like this.
+            """
+        )
+    with image_column:
+         st.image(img_10)
+    st.write("---")
+     
+with st.container():
+    text_column, image_column = st.columns((1, 1)) 
+    with text_column:
+        st.subheader("Step 11")
+        st.write(
+            """
+            Click on the uploading an existing file option
+            \n- Drag and drop the folder that you’ve been working on into this box
+            """
+        )
+    with image_column:
+        st.image(img_11)
+    st.write("---")
+
+
+
+with st.container():
+    image_column, text_column  = st.columns((1, 1))         
+    with text_column:
+        st.subheader("Step 12")
+        st.write(
+            """
+            Go to [Streamlit.io/cloud](https://Streamlit.io/cloud) and make an account
+            \n- There should be a screen like this that will allow you to connect your new Streamlit account to GitHub.
+            """
+        )
+    with image_column:
+         st.image(img_12)
+    st.write("---")
+
+with st.container():
+    text_column, image_column = st.columns((1, 1)) 
+    with text_column:
+        st.subheader("Step 13")
+        st.write(
+            """
+            Click on the new app button.
+            """
+        )
+    with image_column:
+        st.image(img_13)
+    st.write("---")
+
+
+
+with st.container():
+    image_column, text_column  = st.columns((1, 1))         
+    with text_column:
+        st.subheader("Step 14")
+        st.write(
+            """
+            Click on the Paste Github URL button.
+            """
+        )
+    with image_column:
+         st.image(img_14)
+    st.write("---")
+
+with st.container():
+    text_column, image_column = st.columns((1, 1)) 
+    with text_column:
+        st.subheader("Step 15")
+        st.write(
+            """
+            Copy and paste the link to the Homepage.py file from your new repository into this text box.
+            \n- Now you can click on Deploy!
+            """
+        )
+    with image_column:
+        st.image(img_15)
+    st.write("---")
+
+
+
+with st.container():
+    image_column, text_column  = st.columns((1, 1))         
+    with text_column:
+        st.subheader("Step 16")
+        st.write(
+            """
+            Back on the first page that you see when you log in you can see your app as well as these options when you click on the three dots beside it.
+            """
+        )
+    with image_column:
+         st.image(img_16)
+    st.write("---")
+
+with st.container():
+    text_column, image_column = st.columns((1, 1)) 
+    with text_column:
+        st.subheader("Step 17")
+        st.write(
+            """
+            (Optional) On this page you can rename the website URL to anything of your choice.
+            """
+        )
+    with image_column:
+        st.image(img_17)
+    st.write("---")
+
+
+
+with st.container():
+
+    st.subheader("Wrap Up")
+    st.markdown('<div style="text-align: center;"> <font size = "4"> That is all! If you are interested in learning more about Python, Streamlit, and GitHub, here are some great resources for you: </font> </div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: center;"> <font size = "4"> <a href="https://docs.python.org/3/tutorial/">Python</a> </font> </div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: center;"> <font size = "4"> <a href="https://docs.github.com/en/get-started/quickstart/hello-world">GitHub</a> </font> </div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: center;"> <font size = "4"> <a href="https://docs.streamlit.io/">Streamlit</a> </font> </div>', unsafe_allow_html=True)
+
+    st.write("---")
 
 with st.container():
     st.markdown('<h1 style="text-align: center;">Contact Me</h1>', unsafe_allow_html=True)
@@ -205,6 +351,7 @@ with st.container():
 
 
    
+    st.markdown('<div style="text-align: center;"> <font size = "4"> If you have any questions about any particular step, please feel free to contact me on any of the platforms below, and I’ll try to get back to you as soon as possible. Thank you for checking out this tutorial! </font> </div>', unsafe_allow_html=True)
     st.markdown('<a href="mailto:christianihekweazu@gmail.com">My Email</a>', unsafe_allow_html=True)
     st.write("[My Linkedin](http://www.linkedin.com/in/christianihekweazu)")
     st.markdown("[My GitHub](https://github.com/CIhekweazu03)")
