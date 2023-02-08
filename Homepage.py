@@ -38,6 +38,8 @@ img_3 = Image.open("images/img_3.jpg")
 img_4 = Image.open("images/img_4.jpg")
 img_5 = Image.open("images/img_5.jpg")
 img_6 = Image.open("images/img_6.jpg")
+img_7 = Image.open("images/img_7.jpg")
+img_8 = Image.open("images/img_8.jpg")
 
 
 
@@ -160,6 +162,42 @@ with st.container():
     with image_column:
         st.image(img_6)
     st.write("---")
+
+with st.container():
+    st.write("---")
+    st.header("Instructions")
+    st.write("##")
+    text_column, image_column = st.columns((1, 1)) 
+    with text_column:
+        st.subheader("Step 7")
+        st.write(
+            """
+            Modify the “Basic Info,” “Organizations and Extracurriculars,” “Work Experiences”, “Technical Skills,” and “Contact Me” sections with your info.
+            \nThis part is a little bit trickier, but in order to change the info you will have to modify the information between the beginning and closing tags.
+            \n\tFor example, if you wanted to rename the Organizations and Extracurriculars you could modify everything after “<h3 style="text-align: center;">” and before “</h3>
+            \n\tAnother example, if you wanted to modify the bullet points, you could freely change everything after “<div style="text-align: justify;"> <font size = "4">” and before “</font> </div>”
+            \n- It may take some practice getting down, but if you make too big of a mistake, you can always re-download the respective files from my GitHub.
+            """
+        )
+    with image_column:
+        st.image(img_7)
+    st.write("---")
+
+
+
+with st.container():
+    image_column, text_column  = st.columns((1, 1)) #st.columns((2, 1))
+    with text_column:
+        st.subheader("Step 8")
+        st.write(
+            """
+            (Optional) Go to the image folder and change the file named img_1.jpg with an image of your choice (could be a self-portrait, another welcome image, etc.); just make sure that the new file is also named img_1.jpg so that you don’t have to modify the Homepage.py file any more than is necessary.
+            """
+        )
+    with image_column:
+         st.image(img_8)
+    st.write("---")
+     
 
 
 with st.container():
