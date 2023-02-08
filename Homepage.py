@@ -36,6 +36,8 @@ img_1 = Image.open("images/img_1.jpg")
 img_2 = Image.open("images/img_2.jpg")
 img_3 = Image.open("images/img_3.jpg")
 img_4 = Image.open("images/img_4.jpg")
+img_5 = Image.open("images/img_5.jpg")
+img_6 = Image.open("images/img_6.jpg")
 
 
 
@@ -130,6 +132,33 @@ with st.container():
         )
     with image_column:
         st.image(img_4)
+    st.write("---")
+
+with st.container():
+    text_column, image_column = st.columns((1, 1)) 
+    with text_column:
+        st.subheader("Step 5")
+        st.write(
+            """
+            Use the respective open file option on your editor and go to the Homepage.py file.
+            """
+        )
+    with image_column:
+        st.image(img_5)
+    st.write("---")
+
+with st.container():
+    image_column, text_column = st.columns((1, 1)) 
+    with text_column:
+        st.subheader("Step 6")
+        st.write(
+            """
+            Edit name, personal information, education etc, to your respective information.
+            \n- All the text on the page can be modified to better fit you and your experiences; just pay very close attention to everywhere that has PLACEHOLDER, because that definitely needs to be changed
+            """
+        )
+    with image_column:
+        st.image(img_6)
     st.write("---")
 
 
