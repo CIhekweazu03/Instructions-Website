@@ -29,8 +29,7 @@ def local_css(file_name):
 local_css("style/style.css")
 
 
-# ---- LOAD ASSETS ----
-lottie_coding = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_mu1asgg9.json")
+
 welcome_img = Image.open("images/welcome.jpg")
 img_1 = Image.open("images/img_1.jpg")
 img_2 = Image.open("images/img_2.jpg")
@@ -46,14 +45,13 @@ img_8 = Image.open("images/img_8.jpg")
 
 
 
-# ---- HEADER SECTION ----
 with st.container():
     st.title("Hi, I am Christian Ihekweazu")
-    st.subheader("I'm a student majoring in Computer Science at Clemson University")
+    st.subheader("Instructions for Resume Website Template=")
 
 
 
-# ---- WHAT IS THIS ABOUT ----
+
 with st.container():
     #st.write("---")
     left_column, right_column = st.columns(2)
