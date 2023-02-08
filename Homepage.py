@@ -174,8 +174,8 @@ with st.container():
             """
             Modify the “Basic Info,” “Organizations and Extracurriculars,” “Work Experiences”, “Technical Skills,” and “Contact Me” sections with your info.
             \nThis part is a little bit trickier, but in order to change the info you will have to modify the information between the beginning and closing tags.
-            \n\tFor example, if you wanted to rename the Organizations and Extracurriculars you could modify everything after “<h3 style="text-align: center;">” and before “</h3>
-            \n\tAnother example, if you wanted to modify the bullet points, you could freely change everything after “<div style="text-align: justify;"> <font size = "4">” and before “</font> </div>”
+            \n- For example, if you wanted to rename the Organizations and Extracurriculars you could modify everything after “<h3 style="text-align: center;">” and before “</h3>
+            \n- Another example, if you wanted to modify the bullet points, you could freely change everything after “<div style="text-align: justify;"> <font size = "4">” and before “</font> </div>”
             \n- It may take some practice getting down, but if you make too big of a mistake, you can always re-download the respective files from my GitHub.
             """
         )
