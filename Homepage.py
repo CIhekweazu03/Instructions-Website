@@ -357,3 +357,4 @@ with st.container():
     st.markdown("[My GitHub](https://github.com/CIhekweazu03)")
     st.write("---")  
 
+    st.write("Most of the images for the steps are mine with the exception of the Welcome image which can be found here: \n- [Welcome Source](https://impact.stanford.edu/article/introducing-nine-new-design-fellows)")
