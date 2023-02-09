@@ -84,7 +84,7 @@ with st.container():
     st.write("##")
     text_column, image_column = st.columns((1, 1)) 
     with text_column:
-        st.subheader("Step 1")
+        st.subheader("Step 1. Download Python")
         st.write(
             """
             Download the most recent version of Python:
@@ -100,7 +100,7 @@ with st.container():
 with st.container():
     image_column, text_column  = st.columns((1, 1))         
     with text_column:
-        st.subheader("Step 2")
+        st.subheader("Step 2. Installing Packages")
         st.write(
             """
             Open the Terminal or Command Line Interface on your computer and run the following commands:
@@ -118,7 +118,7 @@ with st.container():
 with st.container():
     text_column, image_column = st.columns((1, 1)) 
     with text_column:
-        st.subheader("Step 3")
+        st.subheader("Step 3. Downloading a Code Editor")
         st.write(
             """
             Download a code editor that works with Python
@@ -132,7 +132,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 1)) 
     with text_column:
-        st.subheader("Step 4")
+        st.subheader("Step 4. Downloading My Template")
         st.write(
             """
             [Download my template project folder from this link](https://GitHub.com/CIhekweazu03/Template-Website-Resume)
@@ -146,7 +146,7 @@ with st.container():
 with st.container():
     text_column, image_column = st.columns((1, 1)) 
     with text_column:
-        st.subheader("Step 5")
+        st.subheader("Step 5. Opening Our New Homepage")
         st.write(
             """
             Use the respective open file option on your editor and go to the Homepage.py file.
@@ -159,7 +159,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 1)) 
     with text_column:
-        st.subheader("Step 6")
+        st.subheader("Step 6. Personalizing Your Page")
         st.write(
             """
             Edit name, personal information, education etc, to your respective information.
@@ -173,7 +173,7 @@ with st.container():
 with st.container():
     text_column, image_column = st.columns((1, 1)) 
     with text_column:
-        st.subheader("Step 7")
+        st.subheader("Step 7. Adding Your Experiences")
         st.write(
             """
             Modify the “Basic Info,” “Organizations and Extracurriculars,” “Work Experiences”, “Technical Skills,” and “Contact Me” sections with your info.
@@ -192,7 +192,7 @@ with st.container():
 with st.container():
     image_column, text_column  = st.columns((1, 1))         
     with text_column:
-        st.subheader("Step 8")
+        st.subheader("Step 8. Changing Your Image")
         st.write(
             """
             (Optional) Go to the image folder and change the file named img_1.jpg with an image of your choice (could be a self-portrait, another welcome image, etc.); just make sure that the new file is also named img_1.jpg so that you don’t have to modify the Homepage.py file any more than is necessary.
@@ -205,7 +205,7 @@ with st.container():
 with st.container():
     text_column, image_column = st.columns((1, 1)) 
     with text_column:
-        st.subheader("Step 9")
+        st.subheader("Step 9. Making a GitHub Account")
         st.write(
             """
             Make a GitHub Account and sign into that account.
@@ -221,7 +221,7 @@ with st.container():
 with st.container():
     image_column, text_column  = st.columns((1, 1))         
     with text_column:
-        st.subheader("Step 10")
+        st.subheader("Step 10. New Repository")
         st.write(
             """
             Make a GitHub Repository
@@ -235,7 +235,7 @@ with st.container():
 with st.container():
     text_column, image_column = st.columns((1, 1)) 
     with text_column:
-        st.subheader("Step 11")
+        st.subheader("Step 11. Uploading Your Work")
         st.write(
             """
             Click on the uploading an existing file option
@@ -251,7 +251,7 @@ with st.container():
 with st.container():
     image_column, text_column  = st.columns((1, 1))         
     with text_column:
-        st.subheader("Step 12")
+        st.subheader("Step 12. Making a Streamlit Account")
         st.write(
             """
             Go to [Streamlit.io/cloud](https://Streamlit.io/cloud) and make an account
@@ -265,7 +265,7 @@ with st.container():
 with st.container():
     text_column, image_column = st.columns((1, 1)) 
     with text_column:
-        st.subheader("Step 13")
+        st.subheader("Step 13. New App")
         st.write(
             """
             Click on the new app button.
@@ -280,10 +280,10 @@ with st.container():
 with st.container():
     image_column, text_column  = st.columns((1, 1))         
     with text_column:
-        st.subheader("Step 14")
+        st.subheader("Step 14. More Clicking Buttons")
         st.write(
             """
-            Click on the Paste Github URL button.
+            Click on the Paste GitHub URL button.
             """
         )
     with image_column:
@@ -293,7 +293,7 @@ with st.container():
 with st.container():
     text_column, image_column = st.columns((1, 1)) 
     with text_column:
-        st.subheader("Step 15")
+        st.subheader("Step 15. Pasting Your GitHub Buttons")
         st.write(
             """
             Copy and paste the link to the Homepage.py file from your new repository into this text box.
@@ -309,7 +309,7 @@ with st.container():
 with st.container():
     image_column, text_column  = st.columns((1, 1))         
     with text_column:
-        st.subheader("Step 16")
+        st.subheader("Step 16 You're Done, Congrats!")
         st.write(
             """
             Back on the first page that you see when you log in you can see your app as well as these options when you click on the three dots beside it.
@@ -322,7 +322,7 @@ with st.container():
 with st.container():
     text_column, image_column = st.columns((1, 1)) 
     with text_column:
-        st.subheader("Step 17")
+        st.subheader("Step 17 Maybe Not Quite Yet")
         st.write(
             """
             (Optional) On this page you can rename the website URL to anything of your choice.
